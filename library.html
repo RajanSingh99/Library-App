@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <div class="header">
+        <h1>The Library</h1>
+    </div>
+    <div class="main-container">
+        <div class="initial"><img id="add" src="add.png" alt=""></div>
+        <div>
+            <h3>10 Captivating </h3>
+            <h4>-by chetan bhagat</h4>
+            <h5>750 pages</h5>
+            <input type="checkbox" id="todo" name="todo" value="todo">
+            <label for="todo" data-content="not-Read">not-Read</label>
+            <button class="delete">Remove</button>
+        </div>
+      
+    </div>
+    <div class="popup">
+        <div class="form">   
+            <form action="" id="actual-form">
+                <div id="close">+</div>
+                <input type="text" placeholder="title" id="title" required>
+                <input type="text" placeholder="author" id="author" required>
+                <input type="number"placeholder='pages' id="pages"required >   
+                <button id="add-book" type="submit">add book</input>
+            </form>
+        </div>
+    </div>
+    <script src="library.js"></script>
+</body>
+</html>
